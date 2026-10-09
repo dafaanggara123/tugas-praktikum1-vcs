@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder foto profil</title>
+  <desc id="desc">Ilustrasi minimalis sebagai pengganti foto profil mahasiswa.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c7bda9"/>
+      <stop offset="1" stop-color="#eee8dc"/>
+    </linearGradient>
+    <linearGradient id="silhouette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d806d"/>
+      <stop offset="1" stop-color="#5a5b4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <circle cx="300" cy="290" r="150" fill="#f2ede3" opacity=".44"/>
+  <circle cx="300" cy="282" r="91" fill="url(#silhouette)"/>
+  <path d="M125 710c10-142 85-231 175-231s165 89 175 231" fill="url(#silhouette)"/>
+  <path d="M92 738h416" stroke="#9b7a4b" stroke-width="2" opacity=".65"/>
+  <text x="300" y="770" fill="#6b6457" font-family="Arial, sans-serif" font-size="17" letter-spacing="5" text-anchor="middle">YOUR PHOTO</text>
+</svg>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4f1e9" />
+  <meta name="description" content="Profil mahasiswa dan informasi akademik." />
+  <title>Profil Mahasiswa | Dafa Anggara</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="topbar" aria-label="Header profil">
+      <a class="wordmark" href="#profil" aria-label="Beranda profil">MyProfile<span>.</span></a>
+      <p class="topbar-label">PERSONAL ACADEMIC PROFILE</p>
+      <span class="topbar-index">01 <span>/</span> 01</span>
+    </header>
+
+    <section class="profile-section" id="profil" aria-labelledby="page-title">
+      <div class="section-kicker">
+        <span class="kicker-line" aria-hidden="true"></span>
+        <p>IDENTITAS MAHASISWA</p>
+      </div>
+
+      <article class="profile-card">
+        <div class="portrait-panel">
+          <div class="portrait-frame">
+            <img id="profile-photo" src="assets/foto-profil.svg" alt="Foto profil mahasiswa" />
+            <span class="portrait-caption">FOTO PROFIL</span>
+          </div>
+          <div class="portrait-bottom">
+            <span class="portrait-dot" aria-hidden="true"></span>
+            <span>STUDENT IDENTITY</span>
+          </div>
+        </div>
+
+        <div class="profile-content">
+          <p class="eyebrow">PROFIL AKADEMIK <span>—</span> 2026</p>
+          <h1 id="page-title">Profil<br /><em>Mahasiswa.</em></h1>
+          <p class="profile-intro">Informasi identitas mahasiswa</p>
+
+          <div class="details-grid" aria-label="Data profil mahasiswa">
+            <div class="detail-item">
+              <span class="detail-number">01</span>
+              <div class="detail-copy">
+                <p class="detail-label">NIM</p>
+                <p class="detail-value" data-profile="nim">G.231.23.0153</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <span class="detail-number">02</span>
+              <div class="detail-copy">
+                <p class="detail-label">NAMA LENGKAP</p>
+                <p class="detail-value" data-profile="nama">Dafa Anggara</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <span class="detail-number">03</span>
+              <div class="detail-copy">
+                <p class="detail-label">KELAS</p>
+                <p class="detail-value" data-profile="kelas">SORE A</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <span class="detail-number">04</span>
+              <div class="detail-copy">
+                <p class="detail-label">KELOMPOK</p>
+                <p class="detail-value" data-profile="kelompok">A1</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-actions">
+            <button class="copy-button" id="copy-profile" type="button">
+              <span>Salin data profil</span>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="6.5" y="6.5" width="9" height="10" rx="1.5"></rect><path d="M4.5 13V4.8A1.3 1.3 0 0 1 5.8 3.5H13"></path></svg>
+            </button>
+            <p class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </article>
+
+      <footer class="page-footer">
+        <p>TEKNIK INFORMATIKA</p>
+        <span class="footer-rule" aria-hidden="true"></span>
+        <p>PROFIL MAHASISWA <span>© <span id="year">2026</span></span></p>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
