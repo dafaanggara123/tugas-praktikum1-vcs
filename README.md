@@ -8,5 +8,5 @@ profil-mahasiswa/
 ├── README.md
 ├── .gitignore
 └── assets/
-    └── foto-profil.svg
+    └── myfoto.jpeg
 ```
